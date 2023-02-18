@@ -2,7 +2,7 @@
 #include <garretlab_ePaper19.h>
 
 #undef DEBUG
-ePaper19Class epaper(Wire);
+garretlab_ePaper19 epaper(Wire);
 
 void setup() {
 #ifdef DEBUG
